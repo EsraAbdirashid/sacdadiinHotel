@@ -46,11 +46,11 @@ const Dashboard = () => {
                         </ul>
                 </nav>
         </div>
-        <div className="img">
+        {/* <div className="img">
                 <img src="./public/hotel.jpg" alt=""className='w-[1100px] h-[400px]' />
+        </div> */}
         </div>
-        </div>
-        <div className="footer bg-black text-white flex justify-between p-10">
+        <div className="footer bg-black text-white flex justify-between p-7 mt-28">
         <div className="copy">
         2024 &copy;
       </div>

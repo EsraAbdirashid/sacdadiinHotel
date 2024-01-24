@@ -13,6 +13,7 @@ import Guest from './Components/Pages/Guest/Guest.jsx'
 import Payment from './Components/Pages/Payment/Payment.jsx'
 import Login from './Components/Pages/Login/Login.jsx'
 import Logout from './Components/Pages/Logout/Logout.jsx'
+import Post from './Components/Pages/Hotel/Post.jsx'
    
 
 
@@ -28,6 +29,11 @@ const router = createBrowserRouter([
       {
         path: 'Hotel',
         element: <Hotel/>
+      },
+      // End Points
+      {
+    path:'Post',
+    element:<Post/>
       },
       {
         path:'Employe',
