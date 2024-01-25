@@ -23,7 +23,7 @@ const Hotel = () => {
               <th className='w-[140px]'>Cheack out</th>
             </tr>
           </thead>
-          <tbody className='bg-gray-300 translate-y-2'>
+          <tbody className='bg-gray-300 translate-y-2 text-gray-700'>
             <tr className=''>
               <td className='text-center'>1</td>
               <td className='text-center'>Avav Hotel</td>
