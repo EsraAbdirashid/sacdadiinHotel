@@ -1,8 +1,13 @@
 import React from 'react'
 
 const Delete = () => {
+  const handleDelete=()=>{
+    alert("Deleted!")
+  }
   return (
-    <div>Delete</div>
+    <div>
+
+    </div>
   )
 }
 

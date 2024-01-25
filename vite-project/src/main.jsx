@@ -14,6 +14,8 @@ import Payment from './Components/Pages/Payment/Payment.jsx'
 import Login from './Components/Pages/Login/Login.jsx'
 import Logout from './Components/Pages/Logout/Logout.jsx'
 import Post from './Components/Pages/Hotel/Post.jsx'
+import Update from './Components/Pages/Hotel/Update.jsx'
+import Delete from './Components/Pages/Hotel/Delete.jsx'
    
 
 
@@ -34,6 +36,14 @@ const router = createBrowserRouter([
       {
     path:'Post',
     element:<Post/>
+      },
+      {
+      path:'Update',
+      element:<Update/>
+      },
+      {
+    path:'Delete',
+    element:<Delete/>
       },
       {
         path:'Employe',
