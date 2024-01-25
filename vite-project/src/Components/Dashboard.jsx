@@ -7,6 +7,7 @@ import { LuBedDouble } from "react-icons/lu";
 import { TbBrandBooking } from "react-icons/tb";
 import { FaUsersLine } from "react-icons/fa6";
 import { MdOutlinePayments } from "react-icons/md";
+import { HiOutlineDocumentReport } from "react-icons/hi";
 const Dashboard = () => {
   return (
     <div>
@@ -55,7 +56,9 @@ const Dashboard = () => {
                                         Payment</Link>
                         </ul>
                         <ul  className='bg-white text-gray-700 rounded-full w-32 text-center font-bold mt-2 border-2 hover:bg-slate-400 hover:text-white'>
-                                <Link to='/Report'>Report</Link>
+                                <Link to='/Report'>
+                                <HiOutlineDocumentReport className='inline-block'/>
+                                        Report</Link>
                         </ul>
                         <ul  className='bg-white text-gray-700 rounded-full w-32 text-center font-bold mt-2 border-2 hover:bg-slate-400 hover:text-white'>
                                 <Link to='/Setting'>Setting</Link>
