@@ -8,6 +8,7 @@ import { TbBrandBooking } from "react-icons/tb";
 import { FaUsersLine } from "react-icons/fa6";
 import { MdOutlinePayments } from "react-icons/md";
 import { HiOutlineDocumentReport } from "react-icons/hi";
+import { IoMdSettings } from "react-icons/io";
 const Dashboard = () => {
   return (
     <div>
@@ -61,7 +62,9 @@ const Dashboard = () => {
                                         Report</Link>
                         </ul>
                         <ul  className='bg-white text-gray-700 rounded-full w-32 text-center font-bold mt-2 border-2 hover:bg-slate-400 hover:text-white'>
-                                <Link to='/Setting'>Setting</Link>
+                                <Link to='/Setting'>
+                                <IoMdSettings className='inline-block'/>
+                                        Setting</Link>
                         </ul>
                         <ul  className='bg-white text-gray-700 rounded-full w-32 text-center font-bold mt-2 border-2 hover:bg-slate-400 hover:text-white'>
                                 <Link to='/Login'>Login</Link>
