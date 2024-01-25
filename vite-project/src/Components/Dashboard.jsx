@@ -75,7 +75,8 @@ const Dashboard = () => {
                         </ul>
                         <ul  className='bg-white text-gray-700 rounded-full w-32 text-center font-bold mt-2 border-2 hover:bg-slate-400 hover:text-white'>
                                 <Link to='/Logout'>
-                                        
+                                <RiLogoutCircleFill className='inline-block'/>
+
                                         Logout</Link>
                         </ul>
                 </nav>
