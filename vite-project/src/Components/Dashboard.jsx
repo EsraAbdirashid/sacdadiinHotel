@@ -1,6 +1,8 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import { RiHotelLine } from "react-icons/ri";
+import { FaHouseUser } from "react-icons/fa";
+
 
 const Dashboard = () => {
   return (
@@ -20,7 +22,9 @@ const Dashboard = () => {
                                         Hotel</Link>
                         </ul>
                         <ul  className='bg-white text-gray-700 rounded-full w-32 text-center font-bold mt-2 border-2 hover:bg-slate-400 hover:text-white'>
-                                <Link to='/Employe'>Employe</Link>
+                                <Link to='/Employe'>
+                                <FaHouseUser className='inline-block'/>
+                                        Employe</Link>
                         </ul>
                         <ul  className='bg-white text-gray-700 rounded-full w-32 text-center font-bold mt-2 border-2 hover:bg-slate-400 hover:text-white'>
                                 <Link to='/Room'>Room</Link>
