@@ -9,6 +9,8 @@ import { FaUsersLine } from "react-icons/fa6";
 import { MdOutlinePayments } from "react-icons/md";
 import { HiOutlineDocumentReport } from "react-icons/hi";
 import { IoMdSettings } from "react-icons/io";
+import { RiLoginCircleFill } from "react-icons/ri";
+import { RiLogoutCircleFill } from "react-icons/ri";
 const Dashboard = () => {
   return (
     <div>
@@ -67,10 +69,14 @@ const Dashboard = () => {
                                         Setting</Link>
                         </ul>
                         <ul  className='bg-white text-gray-700 rounded-full w-32 text-center font-bold mt-2 border-2 hover:bg-slate-400 hover:text-white'>
-                                <Link to='/Login'>Login</Link>
+                                <Link to='/Login'>
+                                <RiLoginCircleFill className='inline-block'/>
+                                        Login</Link>
                         </ul>
                         <ul  className='bg-white text-gray-700 rounded-full w-32 text-center font-bold mt-2 border-2 hover:bg-slate-400 hover:text-white'>
-                                <Link to='/Logout'>Logout</Link>
+                                <Link to='/Logout'>
+                                        
+                                        Logout</Link>
                         </ul>
                 </nav>
         </div>
