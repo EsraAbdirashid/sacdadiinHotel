@@ -3,7 +3,8 @@ import {Link} from 'react-router-dom'
 import { RiHotelLine } from "react-icons/ri";
 import { FaHouseUser } from "react-icons/fa";
 import { FaBed } from "react-icons/fa6";
-
+import { LuBedDouble } from "react-icons/lu";
+import { TbBrandBooking } from "react-icons/tb";
 const Dashboard = () => {
   return (
     <div>
@@ -32,10 +33,14 @@ const Dashboard = () => {
                                         Room</Link>
                         </ul>
                         <ul  className='bg-white text-gray-700 rounded-full w-32 text-center font-bold mt-2 border-2 hover:bg-slate-400 hover:text-white'>
-                                <Link to='/RoomType'>RoomType</Link>
+                                <Link to='/RoomType'>
+                                <LuBedDouble className='inline-block'/>
+                                        RoomType</Link>
                         </ul>
                         <ul  className='bg-white text-gray-700 rounded-full w-32 text-center font-bold mt-2 border-2 hover:bg-slate-400 hover:text-white'>
-                                <Link to='/Booking'>Booking</Link>
+                                <Link to='/Booking'>
+                                        
+                                        Booking</Link>
                         </ul>
                         <ul  className='bg-white text-gray-700 rounded-full w-32 text-center font-bold mt-2 border-2 hover:bg-slate-400 hover:text-white'>
                                 <Link to='/Guest'>Guest</Link>
