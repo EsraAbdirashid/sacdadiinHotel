@@ -30,52 +30,52 @@ const Dashboard = () => {
                         </ul>
                         <ul  className='bg-white text-gray-700 rounded-full w-32 text-center font-bold mt-2 border-2 hover:bg-slate-400 hover:text-white'>
                                 <Link to='/Employe'>
-                                <FaHouseUser className='inline-block'/>
+                                <FaHouseUser className='inline-block -translate-x-2'/>
                                         Employe</Link>
                         </ul>
                         <ul  className='bg-white text-gray-700 rounded-full w-32 text-center font-bold mt-2 border-2 hover:bg-slate-400 hover:text-white'>
                                 <Link to='/Room'>
-                                <FaBed className='inline-block'/>
+                                <FaBed className='inline-block -translate-x-2'/>
                                         Room</Link>
                         </ul>
                         <ul  className='bg-white text-gray-700 rounded-full w-32 text-center font-bold mt-2 border-2 hover:bg-slate-400 hover:text-white'>
                                 <Link to='/RoomType'>
-                                <LuBedDouble className='inline-block'/>
+                                <LuBedDouble className='inline-block -translate-x-2'/>
                                         RoomType</Link>
                         </ul>
                         <ul  className='bg-white text-gray-700 rounded-full w-32 text-center font-bold mt-2 border-2 hover:bg-slate-400 hover:text-white'>
                                 <Link to='/Booking'>
-                                <TbBrandBooking className='inline-block' />
+                                <TbBrandBooking className='inline-block -translate-x-2' />
                                         Booking</Link>
                         </ul>
                         <ul  className='bg-white text-gray-700 rounded-full w-32 text-center font-bold mt-2 border-2 hover:bg-slate-400 hover:text-white'>
                                 <Link to='/Guest'>
-                                <FaUsersLine className='inline-block'/>
+                                <FaUsersLine className='inline-block -translate-x-2'/>
                                         Guest</Link>
                         </ul>
                         <ul  className='bg-white text-gray-700 rounded-full w-32 text-center font-bold mt-2 border-2 hover:bg-slate-400 hover:text-white'>
                                 <Link to='/Payment'>
-                                <MdOutlinePayments className='inline-block'/>
+                                <MdOutlinePayments className='inline-block -translate-x-2'/>
                                         Payment</Link>
                         </ul>
                         <ul  className='bg-white text-gray-700 rounded-full w-32 text-center font-bold mt-2 border-2 hover:bg-slate-400 hover:text-white'>
                                 <Link to='/Report'>
-                                <HiOutlineDocumentReport className='inline-block'/>
+                                <HiOutlineDocumentReport className='inline-block -translate-x-2'/>
                                         Report</Link>
                         </ul>
                         <ul  className='bg-white text-gray-700 rounded-full w-32 text-center font-bold mt-2 border-2 hover:bg-slate-400 hover:text-white'>
                                 <Link to='/Setting'>
-                                <IoMdSettings className='inline-block'/>
+                                <IoMdSettings className='inline-block -translate-x-2'/>
                                         Setting</Link>
                         </ul>
                         <ul  className='bg-white text-gray-700 rounded-full w-32 text-center font-bold mt-2 border-2 hover:bg-slate-400 hover:text-white'>
                                 <Link to='/Login'>
-                                <RiLoginCircleFill className='inline-block'/>
+                                <RiLoginCircleFill className='inline-block -translate-x-2'/>
                                         Login</Link>
                         </ul>
                         <ul  className='bg-white text-gray-700 rounded-full w-32 text-center font-bold mt-2 border-2 hover:bg-slate-400 hover:text-white'>
                                 <Link to='/Logout'>
-                                <RiLogoutCircleFill className='inline-block'/>
+                                <RiLogoutCircleFill className='inline-block -translate-x-2'/>
 
                                         Logout</Link>
                         </ul>
