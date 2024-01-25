@@ -3,6 +3,9 @@ import {Link} from 'react-router-dom'
 import { IoAddCircleSharp } from "react-icons/io5";
 
 const Hotel = () => {
+  const handleDelete=()=>{
+    alert("Deleted!")
+  }
   return (
     <div>
       <div className="container -translate-y-[550px]">
@@ -31,7 +34,7 @@ const Hotel = () => {
               <td className='text-center'>+251921236763</td>
               <div className="buttons flex text-white">
              <Link to='/Update'> <button className='bg-green-600  px-3 border-2 p-1'>Update</button></Link>
-              <Link to='/Delete'><button className='bg-red-600 px-3 border-2 p-1 '>Delete</button></Link>
+            <button className='bg-red-600 px-3 border-2 p-1 ' onClick={handleDelete}>Delete</button>
               </div>
               
             </tr>

@@ -11,7 +11,7 @@ const Post = () => {
                 <IoIosArrowBack />
                 </Link>
         </div>
-        <h2 className='text-4xl text-center font-bold uppercase'>REgistration Hotel</h2>
+        <h2 className='text-4xl text-center font-bold uppercase'>Update Hotel</h2>
         <form className=''>
                 <input type="text" placeholder='HotelName'className='px-5 p-2 mt-2 m-2 outline-none' required />
                 <input type="text" placeholder='HotelName' className='ml-2 px-5 p-2  outline-none' required /> <br />
