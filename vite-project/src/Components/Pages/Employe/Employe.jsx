@@ -33,10 +33,14 @@ const Employe = () => {
           <tbody className='bg-gray-300 translate-y-2 text-gray-700'>
             <tr className=''>
               <td className='text-center'>1</td>
-              <td className='text-center'>Avav Hotel</td>
-              <td className='text-center'>jigjiga</td>
-              <td className='text-center'>Avav@hotmail.com</td>
+              <td className='text-center'>Esra</td>
+              <td className='text-center'>Abdirashid</td>
+              <td className='text-center'>Mohamed</td>
+              <td className='text-center'>Esra@gmail.com</td>
               <td className='text-center'>+251921236763</td>
+              <td className='text-center'>maneger</td>
+              <td className='text-center'>Birr50,000</td>
+              <td className='text-center'>maneger</td>
               <div className="buttons flex text-white">
              <Link to='/Update'> <button className='bg-green-600  px-3 border-2 p-1'>Update</button></Link>
             <button className='bg-red-600 px-3 border-2 p-1 ' onClick={handleDelete}>Delete</button>
