@@ -40,7 +40,8 @@ const Employe = () => {
               <td className='text-center'>+251921236763</td>
               <td className='text-center'>maneger</td>
               <td className='text-center'>Birr50,000</td>
-              <td className='text-center'>maneger</td>
+              <td className='text-center'>Date</td>
+              <td className='text-center'>7</td>
               <div className="buttons flex text-white">
              <Link to='/Update'> <button className='bg-green-600  px-3 border-2 p-1'>Update</button></Link>
             <button className='bg-red-600 px-3 border-2 p-1 ' onClick={handleDelete}>Delete</button>
