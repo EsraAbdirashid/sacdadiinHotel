@@ -17,11 +17,16 @@ const Employe = () => {
    <table className='translate-x-[270px]  '>
           <thead className='bg-gray-500 text-white'>
             <tr>
-              <th className='w-[140px]'>Hotel_id</th>
-              <th className='w-[140px]'>HotelName</th>
-              <th className='w-[140px]'>Address</th>
+              <th className='w-[140px]'>Employe_id</th>
+              <th className='w-[140px]'>firstName</th>
+              <th className='w-[140px]'>MiddleName</th>
+              <th className='w-[140px]'>LastName</th>
               <th className='w-[140px]'>Email</th>
               <th className='w-[140px]'>Phone</th>
+              <th className='w-[140px]'>position</th>
+              <th className='w-[140px]'>Salery</th>
+              <th className='w-[140px]'>HireDate</th>
+              <th className='w-[140px]'>Hotel_id</th>
               <th className='w-[140px]'>Actions</th>
             </tr>
           </thead>
