@@ -14,7 +14,7 @@ const Employe = () => {
         <IoAddCircleSharp />
         </Link>
       </div>
-   <table className='translate-x-[270px]  '>
+   <table className='translate-x-[100px]  '>
           <thead className='bg-gray-500 text-white'>
             <tr>
               <th className='w-[100px]'>Employe_id</th>
