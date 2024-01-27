@@ -17,17 +17,17 @@ const Employe = () => {
    <table className='translate-x-[270px]  '>
           <thead className='bg-gray-500 text-white'>
             <tr>
-              <th className='w-[140px]'>Employe_id</th>
-              <th className='w-[140px]'>firstName</th>
-              <th className='w-[140px]'>MiddleName</th>
-              <th className='w-[140px]'>LastName</th>
-              <th className='w-[140px]'>Email</th>
-              <th className='w-[140px]'>Phone</th>
-              <th className='w-[140px]'>position</th>
-              <th className='w-[140px]'>Salery</th>
-              <th className='w-[140px]'>HireDate</th>
-              <th className='w-[140px]'>Hotel_id</th>
-              <th className='w-[140px]'>Actions</th>
+              <th className='w-[100px]'>Employe_id</th>
+              <th className='w-[100px]'>firstName</th>
+              <th className='w-[100px]'>MiddleName</th>
+              <th className='w-[100px]'>LastName</th>
+              <th className='w-[100px]'>Email</th>
+              <th className='w-[100px]'>Phone</th>
+              <th className='w-[100px]'>position</th>
+              <th className='w-[100px]'>Salery</th>
+              <th className='w-[100px]'>HireDate</th>
+              <th className='w-[100px]'>Hotel_id</th>
+              <th className='w-[100px]'>Actions</th>
             </tr>
           </thead>
           <tbody className='bg-gray-300 translate-y-2 text-gray-700'>
