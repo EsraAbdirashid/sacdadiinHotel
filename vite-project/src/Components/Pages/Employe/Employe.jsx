@@ -14,20 +14,20 @@ const Employe = () => {
         <IoAddCircleSharp />
         </Link>
       </div>
-   <table className='translate-x-[100px]  '>
+   <table className='translate-x-[145px]  '>
           <thead className='bg-gray-500 text-white'>
             <tr>
-              <th className='w-[100px]'>Employe_id</th>
-              <th className='w-[100px]'>firstName</th>
-              <th className='w-[100px]'>MiddleName</th>
-              <th className='w-[100px]'>LastName</th>
-              <th className='w-[100px]'>Email</th>
-              <th className='w-[100px]'>Phone</th>
-              <th className='w-[100px]'>position</th>
-              <th className='w-[100px]'>Salery</th>
-              <th className='w-[100px]'>HireDate</th>
-              <th className='w-[100px]'>Hotel_id</th>
-              <th className='w-[100px]'>Actions</th>
+              <th className='w-[90px]'>Employe_id</th>
+              <th className='w-[90px]'>firstName</th>
+              <th className='w-[90px]'>MiddleName</th>
+              <th className='w-[90px]'>LastName</th>
+              <th className='w-[90px]'>Email</th>
+              <th className='w-[90px]'>Phone</th>
+              <th className='w-[90px]'>position</th>
+              <th className='w-[90px]'>Salery</th>
+              <th className='w-[90px]'>HireDate</th>
+              <th className='w-[90px]'>Hotel_id</th>
+              <th className='w-[90px]'>Actions</th>
             </tr>
           </thead>
           <tbody className='bg-gray-300 translate-y-2 text-gray-700'>

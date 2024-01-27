@@ -19,8 +19,8 @@ const Dashboard = () => {
                 <h2 className='bg-gray-500 text-white font-semibold p-4 text-center text-4xl'>SACADADIIN HOTEL</h2>
         </div>
         <div className="mainsection flex">
-        <div className=" bg-slate-700 text-white w-[200px] h-[400px]">
-                <nav className='p-1 translate-x-7'>
+        <div className=" bg-slate-700 text-white w-[140px] h-[400px]">
+                <nav className='p-1 translate-x-'>
                         <ul className='bg-white text-gray-700 rounded-full w-32 text-center font-bold border-2 hover:bg-slate-400 hover:text-white'>
                                 <Link to='/Hotel'>
                               
