@@ -5,7 +5,7 @@ import { IoIosArrowBack } from "react-icons/io";
 const PostEmploye = () => {
   return (
     <div>
-       <div className="container -translate-y-[530px] translate-x-[500px] shadow shadow-slate-300 w-[500px]  h-[400px] bg-slate-200">
+       <div className="container -translate-y-[560px] translate-x-[500px] shadow shadow-slate-300 w-[500px]  h-[470px] bg-slate-200">
         <div className='text-4xl'>
                 <Link to='/Employe'>
                 <IoIosArrowBack />
