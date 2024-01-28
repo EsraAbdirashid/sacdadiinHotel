@@ -12,14 +12,14 @@ const PostEmploye = () => {
                 </Link>
         </div>
         <h2 className='text-4xl text-center font-bold uppercase'>REgistration Employe</h2>
-        {/* <form className=''>
-                <input type="text" placeholder='HotelName'className='px-5 p-2 mt-2 m-2 outline-none' required />
+        <form className=''>
+                {/* <input type="text" placeholder='HotelName'className='px-5 p-2 mt-2 m-2 outline-none' required />
                 <input type="text" placeholder='HotelName' className='ml-2 px-5 p-2  outline-none' required /> <br />
                 <input type="text" placeholder='HotelName' className='px-5 p-2 m-2  outline-none' required /> 
                 <input type="text" placeholder='HotelName' className='ml-2 px-5 p-2  outline-none' required /><br />
-                <input type="submit" className='bg-green-600 px-[205px] p-3 rounded-2xl text-white hover:bg-green-900 font-bold m-2  mt-[150px]' />
+                <input type="submit" className='bg-green-600 px-[205px] p-3 rounded-2xl text-white hover:bg-green-900 font-bold m-2  mt-[150px]' /> */}
 
-        </form> */}
+        </form>
        </div>
     </div>
   )
