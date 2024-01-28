@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import { IoIosArrowBack } from "react-icons/io";
 
-const Post = () => {
+const UpdateEmploye = () => {
   return (
     <div>
        <div className="container -translate-y-[530px] translate-x-[500px] shadow shadow-slate-300 w-[500px]  h-[400px] bg-slate-200">
@@ -29,4 +29,4 @@ const Post = () => {
   )
 }
 
-export default Post
+export default UpdateEmploye
