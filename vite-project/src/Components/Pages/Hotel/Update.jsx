@@ -14,9 +14,9 @@ const Post = () => {
         <h2 className='text-4xl text-center font-bold uppercase'>Update Hotel</h2>
         <form className=''>
                 <input type="text" placeholder='HotelName'className='px-5 p-2 mt-2 m-2 outline-none' required />
-                <input type="text" placeholder='HotelName' className='ml-2 px-5 p-2  outline-none' required /> <br />
-                <input type="text" placeholder='HotelName' className='px-5 p-2 m-2  outline-none' required /> 
-                <input type="text" placeholder='HotelName' className='ml-2 px-5 p-2  outline-none' required /><br />
+                <input type="text" placeholder='Address' className='ml-2 px-5 p-2  outline-none' required /> <br />
+                <input type="text" placeholder='Email' className='px-5 p-2 m-2  outline-none' required /> 
+                <input type="text" placeholder='phone' className='ml-2 px-5 p-2  outline-none' required /><br />
                 <input type="submit" className='bg-green-600 px-[205px] p-3 rounded-2xl text-white hover:bg-green-900 font-bold m-2  mt-[150px]' />
 
         </form>
