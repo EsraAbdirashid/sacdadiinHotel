@@ -39,6 +39,7 @@ const router = createBrowserRouter([
     path:'Post',
     element:<Post/>
       },
+
       {
       path:'Update',
       element:<Update/>
@@ -53,6 +54,7 @@ const router = createBrowserRouter([
        path:'PostEmploye',
        element: <PostEmploye/>
       },
+
       {
         path:'UpdateEmploye',
         element:<UpdateEmploye/>
