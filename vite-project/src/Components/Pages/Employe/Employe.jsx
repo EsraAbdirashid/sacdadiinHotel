@@ -10,7 +10,7 @@ const Employe = () => {
     <div>
       <div className="container -translate-y-[550px]">
       <div className="add ml-[1200px] text-4xl bg-gray-600 text-white rounded-full w-9 space-x-3">
-        <Link to='/Post'>
+        <Link to='/PostEmploye'>
         <IoAddCircleSharp />
         </Link>
       </div>
