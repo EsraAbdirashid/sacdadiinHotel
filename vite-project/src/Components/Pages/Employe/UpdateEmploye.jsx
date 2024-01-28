@@ -29,4 +29,4 @@ const UpdateEmploye = () => {
   )
 }
 
-export default UpdateEmploye
+export default UpdateEmploye;
