@@ -17,10 +17,10 @@ const PostEmploye = () => {
                 <input type="text" placeholder='MiddleName' className='ml-2 px-5 p-2  outline-none' required /> 
                 <input type="text" placeholder='LastName' className='px-5 p-2 m-2  outline-none' required /> 
                 <input type="text" placeholder='Email' className='ml-2 px-5 p-2  outline-none' required />
-                <input type="Number" placeholder='Phonee' className='ml-2 px-5 p-2  outline-none' required />
-                <input type="text" placeholder='Position' className='ml-2 px-5 p-2  outline-none' required />
-                <input type="number" placeholder='Salery' className='ml-2 px-5 p-2  outline-none' required />
-                <input type="number" placeholder='Hotel_id' className='ml-2 px-5 p-2  outline-none' required />
+                <input type="Number" placeholder='Phonee' className='ml-2 px-5 p-2 mt-2 outline-none' required />
+                <input type="text" placeholder='Position' className='ml-2 px-5 p-2 mt-2  outline-none' required />
+                <input type="number" placeholder='Salery' className='ml-2 px-5 p-2 mt-2  outline-none' required />
+                <input type="number" placeholder='Hotel_id' className='ml-2 px-5 p-2 mt-2 outline-none' required />
                 <input type="submit" className='bg-green-600 px-[205px] p-3 rounded-2xl text-white hover:bg-green-900 font-bold m-2  mt-[100px]' />
 
         </form>
