@@ -17,6 +17,7 @@ import Post from './Components/Pages/Hotel/Post.jsx'
 import Update from './Components/Pages/Hotel/Update.jsx'
 import PostEmploye from './Components/Pages/Employe/PostEmploye.jsx'
 import UpdateEmploye from './Components/Pages/Employe/UpdateEmploye.jsx'
+import PostGuest from './Components/Pages/Guest/PostGuest.jsx'
 
    
 
@@ -76,6 +77,12 @@ const router = createBrowserRouter([
         path:'Guest',
         element:<Guest/>
       },
+      // Endpiont Guest
+      {
+        path:'PostGuest',
+        element: <PostGuest/>
+      }
+      ,
      {
         path:'Payment',
         element:<Payment/>
