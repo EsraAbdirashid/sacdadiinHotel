@@ -18,6 +18,7 @@ import Update from './Components/Pages/Hotel/Update.jsx'
 import PostEmploye from './Components/Pages/Employe/PostEmploye.jsx'
 import UpdateEmploye from './Components/Pages/Employe/UpdateEmploye.jsx'
 import PostGuest from './Components/Pages/Guest/PostGuest.jsx'
+import UpdateGuest from './Components/Pages/Guest/UpdateGuest.jsx'
 
    
 
@@ -81,8 +82,11 @@ const router = createBrowserRouter([
       {
         path:'PostGuest',
         element: <PostGuest/>
-      }
-      ,
+      },
+      {
+      path:'UpdateGuest',
+      element:<UpdateGuest/>
+      },
      {
         path:'Payment',
         element:<Payment/>
