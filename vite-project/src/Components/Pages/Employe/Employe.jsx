@@ -4,7 +4,7 @@ import { IoAddCircleSharp } from "react-icons/io5";
 
 const Employe = () => {
   const handleDelete=()=>{
-    alert("Deleted!")
+    alert("Deleted Employe?!")
   }
   return (
     <div>
