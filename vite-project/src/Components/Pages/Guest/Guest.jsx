@@ -23,10 +23,6 @@ const Guest = () => {
               <th className='w-[90px]'>LastName</th>
               <th className='w-[90px]'>Email</th>
               <th className='w-[90px]'>Phone</th>
-              <th className='w-[90px]'>position</th>
-              <th className='w-[90px]'>Salery</th>
-              <th className='w-[90px]'>HireDate</th>
-              <th className='w-[90px]'>Hotel_id</th>
               <th className='w-[90px]'>Actions</th>
             </tr>
           </thead>
@@ -38,10 +34,6 @@ const Guest = () => {
               <td className='text-center'>Mohamed</td>
               <td className='text-center'>Esra@gmail.com</td>
               <td className='text-center'>+251921236763</td>
-              <td className='text-center'>maneger</td>
-              <td className='text-center'>Birr50,000</td>
-              <td className='text-center'>Date</td>
-              <td className='text-center'>7</td>
               <div className="buttons flex text-white">
              <Link to='/UpdateEmploye'> <button className='bg-green-600  px-3 border-2 p-1'>Update</button></Link>
             <button className='bg-red-600 px-3 border-2 p-1 ' onClick={handleDelete}>Delete</button>
