@@ -20,6 +20,7 @@ import UpdateEmploye from './Components/Pages/Employe/UpdateEmploye.jsx'
 import PostGuest from './Components/Pages/Guest/PostGuest.jsx'
 import UpdateGuest from './Components/Pages/Guest/UpdateGuest.jsx'
 import PostBooking from './Components/Pages/Booking/PostBooking.jsx'
+import UpdateBooking from './Components/Pages/Booking/UpdateBooking.jsx'
 
    
 
@@ -79,7 +80,10 @@ const router = createBrowserRouter([
         path:'/PostBooking',
         element: <PostBooking/>
       },
-      {},
+      {
+        path:'/UpdateBooking',
+        element: <UpdateBooking/>
+      },
       {
         path:'Guest',
         element:<Guest/>
