@@ -2,16 +2,16 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import { IoIosArrowBack } from "react-icons/io";
 
-const UpdateRoom = () => {
+const UpdateRoomType = () => {
   return (
     <div>
        <div className="container -translate-y-[560px] translate-x-[500px] shadow shadow-slate-300 w-[500px]  h-[470px] bg-slate-200">
         <div className='text-4xl'>
-                <Link to='/Room'>
+                <Link to='/RoomType'>
                 <IoIosArrowBack />
                 </Link>
         </div>
-        <h2 className='text-4xl text-center font-bold uppercase'>Update Room</h2>
+        <h2 className='text-4xl text-center font-bold uppercase'>Update RoomType</h2>
         <form className=''>
                 <input type="number" placeholder='Hotel_id'className='px-5 p-2 mt-2 m-2 outline-none' required />
                 <input type="number" placeholder='Type_id' className='ml-2 px-5 p-2  outline-none' required /> 
@@ -25,4 +25,4 @@ const UpdateRoom = () => {
   )
 }
 
-export default UpdateRoom
+export default UpdateRoomType
