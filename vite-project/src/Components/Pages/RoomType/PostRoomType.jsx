@@ -13,9 +13,9 @@ const PostRoomType = () => {
         </div>
         <h2 className='text-4xl text-center font-bold uppercase'>REgistration Room</h2>
         <form className=''>
-                <input type="number" placeholder='Name'className='px-5 p-2 mt-2 m-2 outline-none' required />
+                <input type="text" placeholder='Name'className='px-5 p-2 mt-2 m-2 outline-none' required />
                 <input type="number" placeholder='priceperNight' className='ml-2 px-5 p-2  outline-none' required /> 
-                <input type="number" placeholder='Description' className='px-5 p-2 m-2  outline-none' required /> 
+                <input type="text" placeholder='Description' className='px-5 p-2 m-2  outline-none' required /> 
                 <input type="text" placeholder='Capacity' className='ml-2 px-5 p-2  outline-none' required />
               
                
