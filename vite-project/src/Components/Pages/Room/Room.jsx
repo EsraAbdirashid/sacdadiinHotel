@@ -14,9 +14,9 @@ const Room = () => {
         <IoAddCircleSharp />
         </Link>
       </div>
-   {/* <table className='translate-x-[200px]  '>
+   <table className='translate-x-[200px]  '>
           <thead className='bg-gray-500 text-white'>
-            <tr>
+            {/* <tr>
               <th className='w-[130px]'>Room_id</th>
               <th className='w-[130px]'>RoomNumber</th>
               <th className='w-[130px]'>Guest_id</th>
@@ -39,9 +39,9 @@ const Room = () => {
             <button className='bg-red-600 px-3 border-2 p-1 ' onClick={handleDelete}>Delete</button>
               </div>
               
-            </tr>
+            </tr> */}
           </tbody>
-        </table> */}
+        </table>
       </div>
     </div>
   )
