@@ -2,12 +2,12 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import { IoIosArrowBack } from "react-icons/io";
 
-const UpdateBooking = () => {
+const UpdateRoom = () => {
   return (
     <div>
        <div className="container -translate-y-[560px] translate-x-[500px] shadow shadow-slate-300 w-[500px]  h-[470px] bg-slate-200">
         <div className='text-4xl'>
-                <Link to='/Booking'>
+                <Link to='/Room'>
                 <IoIosArrowBack />
                 </Link>
         </div>
@@ -27,4 +27,4 @@ const UpdateBooking = () => {
   )
 }
 
-export default UpdateBooking
+export default UpdateRoom
