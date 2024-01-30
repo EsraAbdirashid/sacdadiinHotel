@@ -28,11 +28,10 @@ const Room = () => {
           <tbody className='bg-gray-300 translate-y-2 text-gray-700'>
             <tr className=''>
               <td className='text-center'>1</td>
-              <td className='text-center'>107</td>
-              <td className='text-center'>3</td>
-              <td className='text-center'>Birr1500</td>
-              <td className='text-center'>30/1/2024</td>
-              <td className='text-center'>10/2/2024</td>
+              <td className='text-center'>10</td>
+              <td className='text-center'>9</td>
+              <td className='text-center'>7</td>
+              <td className='text-center'>yeah</td>
               <div className="buttons flex text-white">
              <Link to='/UpdateRoom'> <button className='bg-green-600  px-3 border-2 p-1'>Update</button></Link>
             <button className='bg-red-600 px-3 border-2 p-1 ' onClick={handleDelete}>Delete</button>
