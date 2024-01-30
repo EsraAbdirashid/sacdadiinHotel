@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import { IoIosArrowBack } from "react-icons/io";
 
-const PostBooking = () => {
+const PostRoom = () => {
   return (
     <div>
        <div className="container -translate-y-[560px] translate-x-[500px] shadow shadow-slate-300 w-[500px]  h-[470px] bg-slate-200">
@@ -11,7 +11,7 @@ const PostBooking = () => {
                 <IoIosArrowBack />
                 </Link>
         </div>
-        <h2 className='text-4xl text-center font-bold uppercase'>REgistration Booking</h2>
+        <h2 className='text-4xl text-center font-bold uppercase'>REgistration Room</h2>
         <form className=''>
                 <input type="number" placeholder='RoomNumber'className='px-5 p-2 mt-2 m-2 outline-none' required />
                 <input type="number" placeholder='Guest_id' className='ml-2 px-5 p-2  outline-none' required /> 
@@ -27,4 +27,4 @@ const PostBooking = () => {
   )
 }
 
-export default PostBooking
+export default PostRoom
