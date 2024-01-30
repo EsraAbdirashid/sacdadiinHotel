@@ -21,6 +21,7 @@ import PostGuest from './Components/Pages/Guest/PostGuest.jsx'
 import UpdateGuest from './Components/Pages/Guest/UpdateGuest.jsx'
 import PostBooking from './Components/Pages/Booking/PostBooking.jsx'
 import UpdateBooking from './Components/Pages/Booking/UpdateBooking.jsx'
+import PostRoom from './Components/Pages/Room/PostRoom.jsx'
 
    
 
@@ -68,6 +69,12 @@ const router = createBrowserRouter([
         path:'Room',
         element:<Room/>
       },
+      // Endpionts Room
+      {
+        path:'/PostRoom',
+        element:<PostRoom/>
+      },
+      {},
       {
         path:'RoomType',
         element: <RoomType/>
@@ -76,6 +83,7 @@ const router = createBrowserRouter([
         path:'Booking',
         element: <Booking/>
       },
+      // Endpoionts Booking
       {
         path:'/PostBooking',
         element: <PostBooking/>
