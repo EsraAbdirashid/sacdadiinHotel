@@ -25,9 +25,9 @@ const Room = () => {
               <th className='w-[130px]'>CheckoutData</th>
               <th className='w-[130px]'>Actions</th>
             </tr>
-          {/* </thead>
+          </thead>
           <tbody className='bg-gray-300 translate-y-2 text-gray-700'>
-            <tr className=''>
+            {/* <tr className=''>
               <td className='text-center'>1</td>
               <td className='text-center'>107</td>
               <td className='text-center'>3</td>
@@ -39,8 +39,8 @@ const Room = () => {
             <button className='bg-red-600 px-3 border-2 p-1 ' onClick={handleDelete}>Delete</button>
               </div>
               
-            </tr>
-          </tbody> */}
+            </tr> */}
+          </tbody>
         </table>
       </div>
     </div>
