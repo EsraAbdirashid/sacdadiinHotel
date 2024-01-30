@@ -15,7 +15,7 @@ const UpdateBooking = () => {
         <form className=''>
                 <input type="number" placeholder='RoomNumber'className='px-5 p-2 mt-2 m-2 outline-none' required />
                 <input type="number" placeholder='Guest_id' className='ml-2 px-5 p-2  outline-none' required /> 
-                <input type="text" placeholder='LastName' className='px-5 p-2 m-2  outline-none' required /> 
+                <input type="Number" placeholder='TotalPrice' className='px-5 p-2 m-2  outline-none' required /> 
                 <input type="text" placeholder='Email' className='ml-2 px-5 p-2  outline-none' required />
                 <input type="Number" placeholder='Phone' className='ml-[109px] px-5 p-2 mt-2 outline-none' required />
                 
