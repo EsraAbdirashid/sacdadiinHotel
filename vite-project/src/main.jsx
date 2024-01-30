@@ -24,6 +24,7 @@ import UpdateBooking from './Components/Pages/Booking/UpdateBooking.jsx'
 import PostRoom from './Components/Pages/Room/PostRoom.jsx'
 import UpdateRoom from './Components/Pages/Room/UpdateRoom.jsx'
 import PostRoomType from './Components/Pages/RoomType/PostRoomType.jsx'
+import UpdateRoomType from './Components/Pages/RoomType/UpdateRoomType.jsx'
 
    
 
@@ -89,7 +90,10 @@ const router = createBrowserRouter([
         path:'/PostRoomType',
         element:<PostRoomType/>
       },
-      {},
+      {
+        path:'/UpdateRoomType',
+        element:<UpdateRoomType/>
+      },
       {
         path:'Booking',
         element: <Booking/>
