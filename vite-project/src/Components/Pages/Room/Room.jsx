@@ -30,7 +30,7 @@ const Room = () => {
             <tr className=''>
               <td className='text-center'>1</td>
               <td className='text-center'>107</td>
-              {/* <td className='text-center'>3</td>
+              <td className='text-center'>3</td>
               <td className='text-center'>Birr1500</td>
               <td className='text-center'>30/1/2024</td>
               <td className='text-center'>10/2/2024</td>
@@ -38,7 +38,7 @@ const Room = () => {
              <Link to='/UpdateRoom'> <button className='bg-green-600  px-3 border-2 p-1'>Update</button></Link>
             <button className='bg-red-600 px-3 border-2 p-1 ' onClick={handleDelete}>Delete</button>
               </div>
-               */}
+              
             </tr>
           </tbody>
         </table>
