@@ -18,11 +18,10 @@ const Room = () => {
           <thead className='bg-gray-500 text-white'>
             <tr>
               <th className='w-[130px]'>Room_id</th>
-              <th className='w-[130px]'>RoomNumber</th>
-              <th className='w-[130px]'>Guest_id</th>
-              <th className='w-[130px]'>TotalPrice</th>
-              <th className='w-[130px]'>CheckInData</th>
-              <th className='w-[130px]'>CheckoutData</th>
+              <th className='w-[130px]'>Hotel_id</th>
+              <th className='w-[130px]'>Type_id</th>
+              <th className='w-[130px]'>Booking_id</th>
+              <th className='w-[130px]'>status</th>
               <th className='w-[130px]'>Actions</th>
             </tr>
           </thead>
