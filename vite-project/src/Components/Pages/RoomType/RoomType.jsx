@@ -17,21 +17,21 @@ const RoomType = () => {
    <table className='translate-x-[200px]  '>
           <thead className='bg-gray-500 text-white'>
             <tr>
-              <th className='w-[130px]'>Room_id</th>
-              <th className='w-[130px]'>Hotel_id</th>
-              <th className='w-[130px]'>Type_id</th>
-              <th className='w-[130px]'>Booking_id</th>
-              <th className='w-[130px]'>status</th>
+              <th className='w-[130px]'>RoomType_id</th>
+              <th className='w-[130px]'>Name</th>
+              <th className='w-[130px]'>PriceperNight_id</th>
+              <th className='w-[130px]'>Description</th>
+              <th className='w-[130px]'>Capacity</th>
               <th className='w-[130px]'>Actions</th>
             </tr>
           </thead>
           <tbody className='bg-gray-300 translate-y-2 text-gray-700'>
             <tr className=''>
               <td className='text-center'>1</td>
-              <td className='text-center'>10</td>
-              <td className='text-center'>9</td>
-              <td className='text-center'>7</td>
-              <td className='text-center'>yeah</td>
+              <td className='text-center'>Miss Esra</td>
+              <td className='text-center'>9000</td>
+              <td className='text-center'>waysoo dagtay</td>
+              <td className='text-center'>single</td>
               <div className="buttons flex text-white">
              <Link to='/UpdateRoomType'> <button className='bg-green-600  px-3 border-2 p-1'>Update</button></Link>
             <button className='bg-red-600 px-3 border-2 p-1 ' onClick={handleDelete}>Delete</button>
