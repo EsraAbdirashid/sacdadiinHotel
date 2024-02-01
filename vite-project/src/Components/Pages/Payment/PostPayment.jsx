@@ -19,6 +19,7 @@ const PostPayment = () => {
               <select name="" id="">
                 <option value="PaymentMethod">PaymentMethod</option>
                 <option value="HelloCash">HelloCash</option>
+                <option value="Sahay">Sahay</option>
                 </select> 
               
                
