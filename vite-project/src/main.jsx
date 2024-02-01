@@ -25,6 +25,7 @@ import PostRoom from './Components/Pages/Room/PostRoom.jsx'
 import UpdateRoom from './Components/Pages/Room/UpdateRoom.jsx'
 import PostRoomType from './Components/Pages/RoomType/PostRoomType.jsx'
 import UpdateRoomType from './Components/Pages/RoomType/UpdateRoomType.jsx'
+import PostPayment from './Components/Pages/Payment/PostPayment.jsx'
 
    
 
@@ -124,6 +125,12 @@ const router = createBrowserRouter([
         path:'Payment',
         element:<Payment/>
      },
+    //  EndPionts Payment
+    {
+      path:'/PostPayment',
+      element:<PostPayment/>
+    },
+    {},
      {
       path:'Login',
       element:<Login/>
