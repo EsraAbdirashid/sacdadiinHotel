@@ -16,7 +16,9 @@ const PostPayment = () => {
                 <input type="number" placeholder='Bookin_id'className='px-5 p-2 mt-2 m-2 outline-none' required />
                 <input type="number" placeholder='Amount' className='ml-2 px-5 p-2  outline-none' required /> 
                 <input type="Date" placeholder='PaymentDate' className='px-5 p-2 m-2  outline-none' required /> 
-               
+              <select name="" id="">
+                <option value="PaymentMethod"></option>
+                </select> 
               
                
                 <input type="submit" className='bg-green-600 px-[205px] p-3 rounded-2xl text-white hover:bg-green-900 font-bold m-2  mt-[100px]' />
