@@ -132,7 +132,7 @@ const router = createBrowserRouter([
       element:<PostPayment/>
     },
     {
-      path:'/UpdateMethod',
+      path:'/UpdatePayment',
       element:<UpdatePayment/>
     },
      {
