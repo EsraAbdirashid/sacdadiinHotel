@@ -21,6 +21,7 @@ const PostPayment = () => {
                 <option value="HelloCash">HelloCash</option>
                 <option value="Sahay">Sahay</option>
                 <option value="Ebirr">Ebirr</option>
+                <option value="Esahal">Esahal</option>
                 </select> 
               
                
