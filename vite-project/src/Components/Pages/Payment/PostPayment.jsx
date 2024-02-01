@@ -17,7 +17,8 @@ const PostPayment = () => {
                 <input type="number" placeholder='Amount' className='ml-2 px-5 p-2  outline-none' required /> 
                 <input type="Date" placeholder='PaymentDate' className='px-5 p-2 m-2  outline-none' required /> 
               <select name="" id="">
-                <option value="PaymentMethod"></option>
+                <option value="PaymentMethod">PaymentMethod</option>
+                <option value="HelloCash">HelloCash</option>
                 </select> 
               
                
