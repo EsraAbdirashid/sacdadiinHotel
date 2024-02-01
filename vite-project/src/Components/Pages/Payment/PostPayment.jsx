@@ -15,8 +15,8 @@ const PostPayment = () => {
         <form className=''>
                 <input type="text" placeholder=''className='px-5 p-2 mt-2 m-2 outline-none' required />
                 <input type="number" placeholder='' className='ml-2 px-5 p-2  outline-none' required /> 
-                <input type="text" placeholder='Description' className='px-5 p-2 m-2  outline-none' required /> 
-                <input type="text" placeholder='Capacity' className='ml-2 px-5 p-2  outline-none' required />
+                <input type="text" placeholder='' className='px-5 p-2 m-2  outline-none' required /> 
+                <input type="text" placeholder='' className='ml-2 px-5 p-2  outline-none' required />
               
                
                 <input type="submit" className='bg-green-600 px-[205px] p-3 rounded-2xl text-white hover:bg-green-900 font-bold m-2  mt-[100px]' />
