@@ -14,7 +14,7 @@ const PostPayment = () => {
         <h2 className='text-4xl text-center font-bold uppercase'>REgistration Payment</h2>
         <form className=''>
                 <input type="number" placeholder='Bookin_id'className='px-5 p-2 mt-2 m-2 outline-none' required />
-                <input type="number" placeholder='' className='ml-2 px-5 p-2  outline-none' required /> 
+                <input type="number" placeholder='Amount' className='ml-2 px-5 p-2  outline-none' required /> 
                 <input type="text" placeholder='' className='px-5 p-2 m-2  outline-none' required /> 
                 <input type="text" placeholder='' className='ml-2 px-5 p-2  outline-none' required />
               
