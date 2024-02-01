@@ -15,7 +15,7 @@ const PostPayment = () => {
         <form className=''>
                 <input type="number" placeholder='Bookin_id'className='px-5 p-2 mt-2 m-2 outline-none' required />
                 <input type="number" placeholder='Amount' className='ml-2 px-5 p-2  outline-none' required /> 
-                <input type="text" placeholder='' className='px-5 p-2 m-2  outline-none' required /> 
+                <input type="Date" placeholder='PaymentDate' className='px-5 p-2 m-2  outline-none' required /> 
                 <input type="text" placeholder='' className='ml-2 px-5 p-2  outline-none' required />
               
                
