@@ -19,9 +19,9 @@ const Payment = () => {
             <tr>
               <th className='w-[130px]'>Payment_id</th>
               <th className='w-[130px]'>Booking_id</th>
-              <th className='w-[130px]'>PriceperNight_id</th>
-              <th className='w-[130px]'>Description</th>
-              <th className='w-[130px]'>Capacity</th>
+              <th className='w-[130px]'>Amount</th>
+              <th className='w-[130px]'>PaymentDate</th>
+              <th className='w-[130px]'>PaymentMethod</th>
               <th className='w-[130px]'>Actions</th>
             </tr>
           </thead>
