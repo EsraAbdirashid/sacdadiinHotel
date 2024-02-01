@@ -2,12 +2,12 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import { IoIosArrowBack } from "react-icons/io";
 
-const PostRoomType = () => {
+const PostPayment = () => {
   return (
     <div>
        <div className="container -translate-y-[560px] translate-x-[500px] shadow shadow-slate-300 w-[500px]  h-[470px] bg-slate-200">
         <div className='text-4xl'>
-                <Link to='/RoomType'>
+                <Link to='/Payment'>
                 <IoIosArrowBack />
                 </Link>
         </div>
@@ -27,4 +27,4 @@ const PostRoomType = () => {
   )
 }
 
-export default PostRoomType
+export default PostPayment
