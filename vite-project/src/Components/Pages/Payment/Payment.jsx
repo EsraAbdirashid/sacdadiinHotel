@@ -2,15 +2,15 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import { IoAddCircleSharp } from "react-icons/io5";
 
-const RoomType = () => {
+const Payment = () => {
   const handleDelete=()=>{
-    alert("Deleted RoomType?!")
+    alert("Deleted Payment?!")
   }
   return (
     <div>
       <div className="container -translate-y-[550px]">
       <div className="add ml-[1200px] text-4xl bg-gray-600 text-white rounded-full w-9 space-x-3">
-        <Link to='/PostRoomType'>
+        <Link to='/PostPayment'>
         <IoAddCircleSharp />
         </Link>
       </div>
@@ -33,7 +33,7 @@ const RoomType = () => {
               <td className='text-center'>waysoo dagtay</td>
               <td className='text-center'>single</td>
               <div className="buttons flex text-white">
-             <Link to='/UpdateRoomType'> <button className='bg-green-600  px-3 border-2 p-1'>Update</button></Link>
+             <Link to='/UpdatePayment'> <button className='bg-green-600  px-3 border-2 p-1'>Update</button></Link>
             <button className='bg-red-600 px-3 border-2 p-1 ' onClick={handleDelete}>Delete</button>
               </div>
               
@@ -45,4 +45,4 @@ const RoomType = () => {
   )
 }
 
-export default RoomType
+export default Payment
