@@ -17,8 +17,8 @@ const Payment = () => {
    <table className='translate-x-[200px]  '>
           <thead className='bg-gray-500 text-white'>
             <tr>
-              <th className='w-[130px]'>RoomType_id</th>
-              <th className='w-[130px]'>Name</th>
+              <th className='w-[130px]'>Payment_id</th>
+              <th className='w-[130px]'>Booking_id</th>
               <th className='w-[130px]'>PriceperNight_id</th>
               <th className='w-[130px]'>Description</th>
               <th className='w-[130px]'>Capacity</th>
