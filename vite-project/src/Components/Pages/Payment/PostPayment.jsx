@@ -11,10 +11,10 @@ const PostPayment = () => {
                 <IoIosArrowBack />
                 </Link>
         </div>
-        <h2 className='text-4xl text-center font-bold uppercase'>REgistration RoomType</h2>
+        <h2 className='text-4xl text-center font-bold uppercase'>REgistration Payment</h2>
         <form className=''>
-                <input type="text" placeholder='Name'className='px-5 p-2 mt-2 m-2 outline-none' required />
-                <input type="number" placeholder='priceperNight' className='ml-2 px-5 p-2  outline-none' required /> 
+                <input type="text" placeholder=''className='px-5 p-2 mt-2 m-2 outline-none' required />
+                <input type="number" placeholder='' className='ml-2 px-5 p-2  outline-none' required /> 
                 <input type="text" placeholder='Description' className='px-5 p-2 m-2  outline-none' required /> 
                 <input type="text" placeholder='Capacity' className='ml-2 px-5 p-2  outline-none' required />
               
